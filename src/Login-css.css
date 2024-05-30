@@ -1,0 +1,196 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.Main-Login {
+  background-image: url(./components/images/background.jpg);
+  height: 100%;
+  width: 100%;
+}
+.container {
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0) 0,
+    rgba(0, 0, 0, 0) 10%,
+    rgba(0, 0, 0, 0) 10%
+  );
+  background: rgb(0 0 0 / 50%);
+}
+.logo {
+  padding: 22px;
+  padding-left: 170px;
+}
+.logo img {
+  height: 40px;
+}
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form {
+  width: 450px;
+  background-color: rgba(0, 0, 0, 0.684);
+  padding: 60px;
+  padding-bottom: 170px;
+  border-radius: 10px;
+}
+.form1 {
+  color: rgba(255, 255, 255);
+}
+.sign {
+  padding-bottom: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.box1 {
+  padding-bottom: 20px;
+}
+.box1 input {
+  height: 55px;
+  width: 320px;
+  font-size: 15px;
+  background-color: rgba(236, 229, 229, 0.048);
+  border-color: rgba(255, 255, 255, 0.344);
+  border-radius: 4px;
+  padding: 15px;
+}
+.box2 {
+  padding-bottom: 20px;
+}
+.box2 input {
+  height: 55px;
+  width: 320px;
+  font-size: 15px;
+  background-color: rgba(236, 229, 229, 0.048);
+  border-color: rgba(255, 255, 255, 0.344);
+  border-radius: 4px;
+  padding: 15px;
+}
+::placeholder {
+  color: rgba(255, 255, 255, 0.719);
+}
+.box3 {
+  padding-bottom: 20px;
+}
+.box3 button {
+  height: 40px;
+  width: 320px;
+  font-size: 15px;
+  cursor: pointer;
+  color: rgba(255, 255, 255);
+  background-color: rgb(215, 10, 10);
+  border: none;
+  border-radius: 4px;
+}
+.box3 button:hover {
+  background-color: rgb(173, 11, 11);
+  transition-duration: 0.2s;
+}
+.box4 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding-bottom: 20px;
+}
+.box5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45px;
+  width: 320px;
+  background-color: rgba(255, 255, 255, 0.238);
+  border: none;
+  border-radius: 3px;
+}
+.box5:hover {
+  opacity: 0.6;
+  transition-duration: 0.2s;
+}
+.box5 a {
+  font-size: 20px;
+  color: rgba(255, 255, 255);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-decoration: none;
+}
+.box6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.box6:hover {
+  text-decoration: underline;
+}
+.box6 a {
+  color: rgba(255, 255, 255);
+  text-decoration: none;
+}
+.form2 {
+  display: flex;
+  flex-direction: column;
+  color: rgba(255, 255, 255);
+}
+.box7 {
+  display: flex;
+  padding-bottom: 20px;
+}
+.box7 p {
+  font-size: 18px;
+  padding-left: 15px;
+}
+.box8 {
+  color: rgba(255, 255, 255, 0.658);
+  font-size: 18px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding-bottom: 20px;
+}
+.span {
+  font-size: 18px;
+  color: rgba(255, 255, 255);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.box9 {
+  color: rgba(255, 255, 255, 0.658);
+  font-size: 14px;
+  width: 90%;
+}
+.ancor {
+  color: rgb(35, 35, 233);
+  text-decoration: none;
+}
+.ancor:hover {
+  text-decoration: underline;
+}
+.foooter {
+  padding: 80px;
+  padding-left: 180px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgba(255, 255, 255, 0.682);
+  background-color: rgba(0, 0, 0, 0.623);
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+}
+span:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.L-faq1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-decoration: underline;
+  cursor: pointer;
+  padding-right: 360px;
+  padding-top: 25px;
+}
+.L-faq2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-decoration: underline;
+  cursor: pointer;
+  padding-right: 870px;
+  padding-top: 25px;
+}
